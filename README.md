@@ -5,4 +5,4 @@
 
 
 [Урок 1](../master/lesson1/1-Intro.pdf)
-[Урок 2]
+[Урок 2](../blob/master/lesson2/CommandLine%26FSH.pdf)
