@@ -67,3 +67,14 @@ git clone git@github.com:nickkostov/LPIC.git
 
 [Урок 3](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
 
+
+* red
+* green
+* blue
+
+- white
+- grey
+- black
++ yellow
++ pink
++ orange
