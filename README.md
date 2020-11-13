@@ -7,6 +7,6 @@
 [a link](https://youtube.com)
 
 
-[a link]  (https://github.com/nickkostov/LPIC/blob/master/lesson1/%D0%92%D1%8A%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5.pdf)
+[a link]  (https://github.com/nickkostov/LPIC/blob/master/lesson1/1-Intro.pdf)
 [Lesson 2]  ()
 [Lesson 3]  ()
