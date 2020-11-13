@@ -1,7 +1,7 @@
  # **Упътване**
 
 
-![LPIC logo](../pics/logo.png)
+![LPIC logo](../master/pics/logo.png)
 
 
 
