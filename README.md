@@ -20,6 +20,17 @@
 
 Което посочва, че вашият уред за съврзване с репоситорито работи.
 
+След това изпълнете следните команди за да създадтете вашият ключ:
+
+``ssh-keygen``
+
+Което ще ви покаже следният изход от изпълнението си:
+
+```
+ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/nick/.ssh/id_rsa):
+```
 
 
 ```bash
