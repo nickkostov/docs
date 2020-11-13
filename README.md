@@ -9,6 +9,6 @@
 
 [a link]  (https://github.com/nickkostov/LPIC/blob/master/lesson1/1-Intro.pdf)
 [Lesson 2]  ()
-[Lesson 3]  ()
+[Lesson 3]  
 
-[I'm a relative reference to a repository file](../master/lesson1/1-Intro.pdf)
+[Урок 1](../master/lesson1/1-Intro.pdf)
