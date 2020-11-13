@@ -6,38 +6,38 @@
 
 [Урок 3](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
 
-[Урок 4](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 4](../master/lesson5/5-Fundamentals.pdf)
 
-[Урок 5](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 5](../master/lesson6/6-Processes.pdf)
 
-[Урок 6](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 6](../master/lesson7/Disk-Files.pdf)
 
-[Урок 7](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 7](../master/lesson8/8-Software-management.pdf)
 
-[Урок 8](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 8](../master/lesson9/9-Grub.pdf)
 
-[Урок 9](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 9](../master/please_wait_in_dev_mode.MD)
 
-[Урок 10](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 10](../master/please_wait_in_dev_mode.MD)
 
-[Урок 11](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 11](../master/please_wait_in_dev_mode.MD)
 
-[Урок 12](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 12](../master/please_wait_in_dev_mode.MD)
 
-[Урок 13](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 13](../master/please_wait_in_dev_mode.MD)
 
-[Урок 14](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 14](../master/please_wait_in_dev_mode.MD)
 
-[Урок 15](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 15](../master/please_wait_in_dev_mode.MD)
 
-[Урок 16](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 16](../master/please_wait_in_dev_mode.MD)
 
-[Урок 17](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 17](../master/please_wait_in_dev_mode.MD)
 
-[Урок 18](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 18](../master/please_wait_in_dev_mode.MD)
 
-[Урок 19](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 19](../master/please_wait_in_dev_mode.MD)
 
-[Урок 20](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 20](../master/please_wait_in_dev_mode.MD)
 
-[Урок 21](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 21](../master/please_wait_in_dev_mode.MD)
