@@ -1,7 +1,7 @@
  # **Упътване**
 
 
-![LPIC logo](../master/pics/logo.png)
+<img src="https://progressbg.net/wp-content/uploads/2013/03/logo-4.png" />
 
 
 
