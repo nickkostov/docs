@@ -2,6 +2,7 @@
 
 
 ![LPIC logo](../master/pics/logo.png)
+![Penguin](../master/pics/penguin.png)
 
 
 
