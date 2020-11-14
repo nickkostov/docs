@@ -2,7 +2,6 @@
 
 
 ![LPIC logo](../master/pics/logo.png)
-![Penguin](../master/pics/penguin.png)
 
 
 
@@ -25,4 +24,9 @@
 ## За допълнителни проекти в които е обяснено кое какво прави [тук](../master/wiki/examples.MD)
 
 =========================================================================================
+
+
+![Penguin](../master/pics/penguin.png)
+
+
 
