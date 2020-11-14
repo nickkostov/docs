@@ -39,6 +39,7 @@ Identity added: /home/nick/.ssh/repo (nick@xmachine)
 
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDWjekckSdrdesO+y8ravwmPR+xECKXW+fttw/3MFFqCnBPZc/cC8ayqhGuBq68i7GntYd6Qs5EcVguSNW6PobTY+MX0qVoUDKogQQP7QLu+vL7IDmryJKlTStgxqeUjcKykcJ4b+hqdosOy6WK04E/ABXS+QEeNRzMD/k1bevfeAAknqlMxSq9oC2wL3inVMdGtSqmowY+COMCQ4JEy+FkPubCk2sVBr/KsOZZgI5PWRIUEpUh2LBBecQHs4lbnYOZ8PhTr7BJhFzaZTC2o9F+cfJ5nFZ0giXh5RCoFT3CVQIK2Ir0x12lD2fi9htVzPxJcSMqzCbT2NyG43KM/GeTf8FGoeAthi4mUsSpLkbI8icD9A8lfN+E07pVwB26wIKHdr67Lu0ZRjYs9ZkXxUYfcYACxkurRKug3+Wh5mvQ1nqC7pl9DuWmpczkPFZwYCZMF7nurCYF9ORJtpTHLaHMYLywiFVi4jszhhAsjnvTedpVid5FuOsGx5ZdudkawGs= nick@xmachine
+
 ```
 
 И за да може да го отворите ползвайте следното:
