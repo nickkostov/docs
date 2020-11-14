@@ -1,20 +1,20 @@
 # Тук ще откриете линкове към pdf за уроците:
 
-[Урок 1](../master/lesson1/1-Intro.pdf)
+[Урок 1](../lesson1/1-Intro.pdf)
 
-[Урок 2](../master/lesson2/CommandLine%26FSH.pdf)
+[Урок 2](../lesson2/CommandLine%26FSH.pdf)
 
-[Урок 3](../master/lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 3](../lesson3.4/Permissions%20and%20other%20stuff.pdf)
 
-[Урок 4](../master/lesson5/5-Fundamentals.pdf)
+[Урок 4](../lesson5/5-Fundamentals.pdf)
 
-[Урок 5](../master/lesson6/6-Processes.pdf)
+[Урок 5](../lesson6/6-Processes.pdf)
 
-[Урок 6](../master/lesson7/Disk-Files.pdf)
+[Урок 6](../lesson7/Disk-Files.pdf)
 
-[Урок 7](../master/lesson8/8-Software-management.pdf)
+[Урок 7](../lesson8/8-Software-management.pdf)
 
-[Урок 8](../master/lesson9/9-Grub.pdf)
+[Урок 8](../lesson9/9-Grub.pdf)
 
 [Урок 9](../master/please_wait_in_dev_mode.MD)
 
@@ -30,14 +30,14 @@
 
 [Урок 15](../master/please_wait_in_dev_mode.MD)
 
-[Урок 16](../master/please_wait_in_dev_mode.MD)
+[Урок 16](../please_wait_in_dev_mode.MD)
 
-[Урок 17](../master/please_wait_in_dev_mode.MD)
+[Урок 17](../please_wait_in_dev_mode.MD)
 
-[Урок 18](../master/please_wait_in_dev_mode.MD)
+[Урок 18](../please_wait_in_dev_mode.MD)
 
-[Урок 19](../master/please_wait_in_dev_mode.MD)
+[Урок 19](../please_wait_in_dev_mode.MD)
 
-[Урок 20](../master/please_wait_in_dev_mode.MD)
+[Урок 20](../please_wait_in_dev_mode.MD)
 
-[Урок 21](../master/please_wait_in_dev_mode.MD)
+[Урок 21](../please_wait_in_dev_mode.MD)
