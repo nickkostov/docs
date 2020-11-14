@@ -1,20 +1,17 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Информация за даден софтуер
+about: За какво ви е?
 title: ''
-labels: ''
-assignees: ''
+labels: 'upgrade-knowledge'
+assignees: 'nickkostov, xsvil'
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Какво е това което искате да направите?**
+Точно и ясно какво искате да направите, за можем да ви кажем какво може да се случи!
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Чете ли по него, ако вече си чел дай ни информация за това**
+Линкове към сайтове и форуми, ако трябва и клипове.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Покажи ни в конзолен вариант какво си направил стъпка по стъпка**
+Кои са командите които изсипа в таз конзола, че идваш да питаш тука....
