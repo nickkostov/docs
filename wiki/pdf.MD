@@ -20,7 +20,7 @@
 
 [Урок 10](../Lessons/lesson11/11-X11.pdf)
 
-[Урок 11](../pics/please_wait_in_dev_mode.MD)
+[Урок 11](../Lessons/lesson12/12-User-management.pdf)
 
 [Урок 12](../master/please_wait_in_dev_mode.MD)
 
