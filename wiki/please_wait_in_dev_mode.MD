@@ -1,1 +1,1 @@
-![LPIC logo](../master/pics/construct.png)
+![LPIC logo](../pics/construct.png)
