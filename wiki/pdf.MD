@@ -18,7 +18,7 @@
 
 [Урок 9](../Lessons/lesson10/10-Scripts.pdf)
 
-[Урок 10](../pics/please_wait_in_dev_mode.MD)
+[Урок 10](../Lessons/lesson11)
 
 [Урок 11](../pics/please_wait_in_dev_mode.MD)
 
