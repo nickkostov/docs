@@ -22,7 +22,7 @@
 
 [Урок 11](../Lessons/lesson12/12-User-management.pdf)
 
-[Урок 12](../master/please_wait_in_dev_mode.MD)
+[Урок 12](../Lessons/lesson13/Mails.pdf)
 
 [Урок 13](../master/please_wait_in_dev_mode.MD)
 
