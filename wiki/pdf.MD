@@ -24,7 +24,7 @@
 
 [Урок 12](../Lessons/lesson13/Mails.pdf)
 
-[Урок 13](../master/please_wait_in_dev_mode.MD)
+[Урок 13](../Lessons/lesson14/Printers%2CCUPS.pdf)
 
 [Урок 14](../master/please_wait_in_dev_mode.MD)
 
