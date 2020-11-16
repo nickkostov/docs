@@ -16,11 +16,11 @@
 
 [Урок 8](../Lessons/lesson9/9-Grub.pdf)
 
-[Урок 9](../master/please_wait_in_dev_mode.MD)
+[Урок 9](../pics/please_wait_in_dev_mode.MD)
 
-[Урок 10](../master/please_wait_in_dev_mode.MD)
+[Урок 10](../pics/please_wait_in_dev_mode.MD)
 
-[Урок 11](../master/please_wait_in_dev_mode.MD)
+[Урок 11](../pics/please_wait_in_dev_mode.MD)
 
 [Урок 12](../master/please_wait_in_dev_mode.MD)
 
