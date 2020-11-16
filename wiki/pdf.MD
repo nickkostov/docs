@@ -1,20 +1,20 @@
 # Тук ще откриете линкове към pdf за уроците:
 
-[Урок 1](../lesson1/1-Intro.pdf)
+[Урок 1](../Lessons/Lesso/lesson1/1-Intro.pdf)
 
-[Урок 2](../lesson2/CommandLine%26FSH.pdf)
+[Урок 2](../Lessons/lesson2/CommandLine%26FSH.pdf)
 
-[Урок 3](../lesson3.4/Permissions%20and%20other%20stuff.pdf)
+[Урок 3](../Lessons/lesson3.4/Permissions%20and%20other%20stuff.pdf)
 
-[Урок 4](../lesson5/5-Fundamentals.pdf)
+[Урок 4](../Lessons/lesson5/5-Fundamentals.pdf)
 
-[Урок 5](../lesson6/6-Processes.pdf)
+[Урок 5](../Lessons/lesson6/6-Processes.pdf)
 
-[Урок 6](../lesson7/Disk-Files.pdf)
+[Урок 6](../Lessons/lesson7/Disk-Files.pdf)
 
-[Урок 7](../lesson8/8-Software-management.pdf)
+[Урок 7](../Lessons/lesson8/8-Software-management.pdf)
 
-[Урок 8](../lesson9/9-Grub.pdf)
+[Урок 8](../Lessons/lesson9/9-Grub.pdf)
 
 [Урок 9](../master/please_wait_in_dev_mode.MD)
 
