@@ -27,7 +27,7 @@
 =========================================================================================
 
 
-[![](../master/pics/penguin.png)
+[![](https://m.media-amazon.com/images/I/31Hyqmg4OsL._AC_SS350_.jpg)
 
 
 
