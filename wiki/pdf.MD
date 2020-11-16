@@ -16,7 +16,7 @@
 
 [Урок 8](../Lessons/lesson9/9-Grub.pdf)
 
-[Урок 9](../pics/please_wait_in_dev_mode.MD)
+[Урок 9](../Lessons/lesson10/10-Scripts.pdf)
 
 [Урок 10](../pics/please_wait_in_dev_mode.MD)
 
