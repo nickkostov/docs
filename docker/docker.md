@@ -136,8 +136,7 @@ Docker клиентът "docker" е как потребителите работ
 
 ![image](../docker/docker_history.png)
 
-
-
+`По нататък LXC е бил заменен с libcontainer`
 
 
 
