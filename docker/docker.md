@@ -32,4 +32,4 @@ sudo systemctl start docker && sudo systemctl enable docker
 ```
 sudo usermod -aG docker {yourusername} (може да ползвате променливата за потребител $USER)
 ```
-
+След като добавите потребителя, "bash" няма да знае, че вашият потребител е добавен в групата затова се разлогнете и логнете обратно.
