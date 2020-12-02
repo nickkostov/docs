@@ -1,11 +1,5 @@
  # **Упътване**
 
-[![](https://progressbg.net/wp-content/uploads/2013/03/logo-4.png)](#)
-
-
-
-
-
 ### **Задължително трябва да си направите акаунт с цел по-честа опутреба на уреда **GitHub** от [тук](https://github.com/join).**
 
 ### **Ако имате нещо което не разбирате или не схващате отивате на [Issues](https://github.com/nickkostov/LPIC/issues/new/choose) , и правите ново следвайки темплейта.**
