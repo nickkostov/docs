@@ -134,7 +134,7 @@ Docker клиентът "docker" е как потребителите работ
 
 Как е изглеждала архитектурата преди:
 
-![image] (../docker/docker_history.png)
+![image](../docker/docker_history.png)
 
 
 
