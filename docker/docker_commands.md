@@ -299,11 +299,14 @@ CONTAINER ID   IMAGE          COMMAND        CREATED         STATUS             
 Например можем да използваме ```nginx``` изображението което туко що свалихме:
 
 
-```docker container run -P -d nginx```
+```docker container run -P -d nginx``` ---> Нека разбием командата след ```run``` това което става е следното ```-P``` ще определи случаен порт на контейнера, а ```-d``` защото 
+контейнера ще се изпълни на преден план и просто няма да можем да изпълним никакви команди.
+
+
 След като командата се изпълни ще получите подобен на този странен изход:
 
 ```dc72604062ae04ceb5f4a4ddef8da19e38e2f19dbba6de3b7d75c13ea0627e10```
-Това означава, че туко що генерирахме един контейнер, ако искате да му видите статута може да изпълните ```docker container ls``` и ще видите, че е там.
+Това означава, че туко що генерирахме един контейнер, ако искате да му видите статута може да изпълните ```docker container ls/docker ps``` и ще видите, че е там.
 ```docker container ls
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                   NAMES
 dc72604062ae   nginx:latest   "/docker-entrypoint.…"   14 seconds ago   Up 13 seconds   0.0.0.0:49153->80/tcp   eloquent_euler
