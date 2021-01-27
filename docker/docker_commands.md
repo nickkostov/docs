@@ -307,10 +307,309 @@ CONTAINER ID   IMAGE          COMMAND        CREATED         STATUS             
 
 ```dc72604062ae04ceb5f4a4ddef8da19e38e2f19dbba6de3b7d75c13ea0627e10```
 Това означава, че туко що генерирахме един контейнер, ако искате да му видите статута може да изпълните ```docker container ls/docker ps``` и ще видите, че е там.
+
 ```docker container ls
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                   NAMES
 dc72604062ae   nginx:latest   "/docker-entrypoint.…"   14 seconds ago   Up 13 seconds   0.0.0.0:49153->80/tcp   eloquent_euler
 ```
+Сега нека видим малко повече за нашият контейнер:   ```!!! В голяма, част от командите ще използвам Container ID което в тази ситуация е dc72604062ae !!!```
 
+```docker inspect dc72604062ae
+[
+    {
+        "Id": "075d6a17a16e42cc8508ee2009fc19e6188b95f0f1f388fd311f43e6d52086af",
+        "Created": "2021-01-27T00:01:54.490318671Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "nginx",
+            "-g",
+            "daemon off;"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 95377,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2021-01-27T00:01:54.845386353Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:f6d0b4767a6c466c178bf718f99bea0d3742b26679081e52dbf8e0c7c4c42d74",
+        "ResolvConfPath": "/var/lib/docker/containers/075d6a17a16e42cc8508ee2009fc19e6188b95f0f1f388fd311f43e6d52086af/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/075d6a17a16e42cc8508ee2009fc19e6188b95f0f1f388fd311f43e6d52086af/hostname",
+        "HostsPath": "/var/lib/docker/containers/075d6a17a16e42cc8508ee2009fc19e6188b95f0f1f388fd311f43e6d52086af/hosts",
+        "LogPath": "/var/lib/docker/containers/075d6a17a16e42cc8508ee2009fc19e6188b95f0f1f388fd311f43e6d52086af/075d6a17a16e42cc8508ee2009fc19e6188b95f0f1f388fd311f43e6d52086af-json.log",
+        "Name": "/elated_meitner",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": true,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/638d394c96a91ae5875949f113dd757e79619ff41d74017642652bff6dbb24e8-init/diff:/var/lib/docker/overlay2/52aa955f92ae8e9913a69f8628c2395ba3825f8c60b9225d489dab1745660644/diff:/var/lib/docker/overlay2/9f504eecf7634a887a428ddac3bf690d3417261841f7fff2c6de3afc2023452b/diff:/var/lib/docker/overlay2/00dc731f8e51545b82cbb33ed442780cab53198a2e25f5c154130e9ae9194e77/diff:/var/lib/docker/overlay2/b97d980644c87bbca2067d1e91fbd6c8385656147c07853492f22b486e6b3621/diff:/var/lib/docker/overlay2/3261059e64529493ad49f93cf24a94a97ae977726e9d258a28fb2251f7abd467/diff",
+                "MergedDir": "/var/lib/docker/overlay2/638d394c96a91ae5875949f113dd757e79619ff41d74017642652bff6dbb24e8/merged",
+                "UpperDir": "/var/lib/docker/overlay2/638d394c96a91ae5875949f113dd757e79619ff41d74017642652bff6dbb24e8/diff",
+                "WorkDir": "/var/lib/docker/overlay2/638d394c96a91ae5875949f113dd757e79619ff41d74017642652bff6dbb24e8/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "075d6a17a16e",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.19.6",
+                "NJS_VERSION=0.5.0",
+                "PKG_RELEASE=1~buster"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "Image": "nginx:latest",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "59ea1fe6c43608c7ea11e66f47d1d4c965a8a6edba2f54b8056d0fa185f54b10",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "49153"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/59ea1fe6c436",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "096e2850a89a9079952a1309b9dda102757f3e0d5fcf02cb120289af3994cf79",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.5",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:05",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "f42cb02c0334b845b721ebe77d7e1f013ccf882b2ef956ef6d12ad9eb6845c08",
+                    "EndpointID": "096e2850a89a9079952a1309b9dda102757f3e0d5fcf02cb120289af3994cf79",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.5",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:05",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
+```
+Ще може да видите статута на контейнера какъв и обикновенните мрежови настройки.
 
+Сега ще изпълним следното:
+
+```docker container top dc72604062ae
+UID                 PID                 PPID                C                   STIME               TTY
+       TIME                CMD
+root                95377               95353               0                   00:01               ?
+       00:00:00            nginx: master process nginx -g daemon off;
+systemd+            95440               95377               0                   00:01               ?
+       00:00:00            nginx: worker process
+```
+Както виждате са показани двата основни процеса на които изпълнява контейнера.
+
+```nginx: мастър процеса и worker процеса```
+
+Нека се прикрепим към контейнера със ```docker container attach dc72604062ae```
+
+Това което се случва в момента е ние се прикрепяме към стандартният вход и изход на контейнера. Не можем да направим нищо, защото контейнера нон-стоп ни изпраща изходящи сигнали към логовете за достъп. Заради това ние нямаме достъп до черупката му, поне по този начин. За да се откачим ще трябва да изпълните ```Ctrl+C``` това ще спре контейнера ни.
+
+За да го стартираме ще трябва да изпълним ```docker container start dc72604062ae```
+
+След като го стартираме може да отворите web-browser и да наберете IP адреса на вашата локална машина или да изпълните ```curl localhost:49153``` след като го направите ще генерирате трафик върху вашият web сървър. Тоест ще можем да видим в употреба командата ```docker container logs dc72604062ae```
+
+Примерен изход на ```curl``` командата.
+
+```curl localhost:49153
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+```
+Изход от ```docker container logs```
+
+```docker container logs dc72604062ae
+/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf
+/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+/docker-entrypoint.sh: Configuration complete; ready for start up
+192.168.100.118 - - [27/Jan/2021:00:27:24 +0000] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" "-"
+2021/01/27 00:27:24 [error] 28#28: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.100.118, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.100.127:49153", referrer: "http://192.168.100.127:49153/"
+192.168.100.118 - - [27/Jan/2021:00:27:24 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://192.168.100.127:49153/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" "-"
+172.17.0.1 - - [27/Jan/2021:00:30:53 +0000] "GET / HTTP/1.1" 200 612 "-" "curl/7.68.0" "-"
+```
+
+Сега ще погледнем статистиките на контейнера със ```docker container stats```:
+
+Ако искате да погледнете статистиките просто изпълнете ```docker container stats dc72604062ae```
+```
+CONTAINER ID   NAME             CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
+dc72604062ae   recursing_pare   0.00%     3.363MiB / 1.913GiB   0.17%     3.72kB / 3.86kB   8.19kB / 16.4kB   2
+```
 
