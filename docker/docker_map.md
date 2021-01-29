@@ -1,6 +1,6 @@
 - [Начало в Docker](../docker/docker.md)
 - [Команди в Docker](../docker/docker_commands.md)
-- [Създаване на контейнери в докер] (../docker/docker_create.md)
+- [Създаване на контейнери в докер](../docker/docker_create.md)
 - [Мрежи в Docker](../docker/docker_network.md)
 - [Съхранение в Docker](../docker/docker_storage.md)
 - [Dockerfile](../docker/docker_dockerfile.md)
