@@ -200,6 +200,30 @@ drwxrwxrwt    2 root     root        4.0K Jan 12 00:39 tmp
 drwxr-xr-x    3 root     root        4.0K Jan 12 00:39 usr
 drwxr-xr-x    4 root     root        4.0K Jan 12 00:39 var
 ```
+Сега мога да конфигурирам контейнера и след това да използвам ```docker container export``` и след това ще мога да въведа тар архива който е създаден със ``docker image import  ``
+
+Примери с ```docker container export```:
+```docker container export > file.tar```
+```docker conainer import file.tar```
+След това си вижте изображенията: ```docker images```
+
+Именуване на контейнери:
+
+Когато създадем контейнер ще забележите, че докер автоматично генерира име ако ние сме задали. Тоест за да зададем име на контейнер ще трябва да изпълним:
+
+```docker container run --name име на контейнер изображение```
+
+Реален пример:
+
+```docker container run --name my_byzibox busybox```
+
+```docker container ls -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED             STATUS                         PORTS     NAMES
+1e970d5735f5   busybox   "sh"                     6 seconds ago       Exited (0) 4 seconds ago                 my_byzibox
+```
+Виждате, че името е такова което съм задал.
+
+
 
 
 
