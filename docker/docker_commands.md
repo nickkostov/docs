@@ -643,3 +643,50 @@ root@dc72604062ae:/#
 
 Както виждате когато се изпълни, ние изпълняваме командата ```ls``` и виждаме съдържанието на ```/usr/share/nginx/html/```.
 Изполвайки ```docker exec``` можем да изпълним всяка команда която е на контейера. 
+
+Сега ще паузираме контейнера със ```docker container pause```:
+
+```docker container pause dc72604062ae
+dc72604062ae
+```
+
+Когато изпълним ```docker container ls``` ще видим, че контейнера който ползваме е в състояние ``paused``. Тоест в момента той не работи или неговите функции са паузирани.
+```
+docker container ls 
+CONTAINER ID   IMAGE     COMMAND                  CREATED      STATUS               PORTS                   NAMES
+dc72604062ae   nginx     "/docker-entrypoint.…"   2 days ago   Up 2 days (Paused)   0.0.0.0:49153->80/tcp   recursing_pare
+```
+
+Ето така ``unpause-ваме`` контейнера:
+
+```
+docker container unpause dc72604062ae 
+dc72604062ae
+```
+
+Как да трием и да премахваме неща в докер:
+
+```docker rm```
+Можем да го ползваме на включен или спрян контейнер.
+
+Ако ползваме командата върху работещ контейнер ще трябва да флагнем ```force``` за да може да спре и изтрие контейнера.
+
+```docker rm -f dc72604062ae
+dc72604062ae
+```
+
+Както виждате контейнера го няма дори може да ползвате -а флага за да видите всички.
+
+```docker container ls
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+```
+
+Как да изтрием всички спрени контейнери: 
+
+```docker container prune```
+
+Ако го ползвате имайте в предвид, че ще трябва да потвърдите избора си.
+
+
+
+
