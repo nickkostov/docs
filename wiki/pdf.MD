@@ -1,6 +1,6 @@
 # Тук ще откриете линкове към pdf за уроците:
 
-[Урок 1](../Lessons/lesson1/1-Intro.pdf)
+[Урок 1](../Lessons/lesson1/1.md)
 
 [Урок 2](../Lessons/lesson2/CommandLine%26FSH.pdf)
 
