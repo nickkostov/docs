@@ -137,3 +137,5 @@ FHS (Filesystem Hierarchy Standard):
 > Стандартът за йерархия на файловата система в базираните на Linux операционни системи
 определя структурата на йерархията на директориите, както и съдържанието на файловете в тях.
 Стандартът е установен и разширен за файловата система на операционната система BSD.
+
+<a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard"><img src="https://media.geeksforgeeks.org/wp-content/uploads/linuxDir.jpg" width="300" height="200" /></a>
