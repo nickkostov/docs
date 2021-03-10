@@ -61,3 +61,17 @@ $EDITOR - зададен текстови едитор по подразбира
 В конзолният ред вие винаги ще може да декларирате дадена променлива по следният начин:
 
 ![variables](https://github.com/nickkostov/LPIC/blob/master/gifs/variables_example.gif)
+
+
+History - Хронология
+
+- `history` - преглед на последно изпълнените команди.
+
+![history](https://github.com/nickkostov/LPIC/blob/master/gifs/history.gif)
+
+- `!!` - изпълняване на предишната команда.
+
+
+![!!](https://github.com/nickkostov/LPIC/blob/master/gifs/!!.gif)
+
+- `!а`
