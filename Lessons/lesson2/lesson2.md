@@ -79,3 +79,20 @@ History - Хронология
 - `~/.bash_history` - файл който запазва всички изпълнени команди в интерпретатора.
 
 ![bash_history](https://github.com/nickkostov/LPIC/blob/master/gifs/bash_history.gif)
+
+
+Малко команди: 
+
+| login  | poweroff  | groups |
+| :----- | :-------: | -----: |
+| logout | reboot    |   su   |
+| :----- | :-------: | -----: |
+|shutdown| users     |  sudo  |
+| :----- | :-------: | -----: |
+|halt    | who       | man     |
+| :----- | :-------: | -----: |
+|init    | w         | info   |
+| :----- | :-------: | -----: |
+|alias   | history   | export |
+| :----- | :-------: | -----: |
+|set     | unset     | env    |
