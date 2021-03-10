@@ -181,14 +181,20 @@ FHS (Filesystem Hierarchy Standard):
 | cp          | mv          | rm            |
 
 * mkdir - Създава директория
+  
  ![mkdir](https://github.com/nickkostov/LPIC/blob/master/gifs/mkdir.gif) 
 * rmdir - Изтрива директория
+  
  ![rmdir](https://github.com/nickkostov/LPIC/blob/master/gifs/rmdir.gif) 
 * touch - Създава файл
+  
  ![touch](https://github.com/nickkostov/LPIC/blob/master/gifs/touch.gif) 
 * cp - Копира файл
+  
  ![cp](https://github.com/nickkostov/LPIC/blob/master/gifs/cp.gif) 
 * mv - Мести файл/директория/преименува
+  
  ![mv](https://github.com/nickkostov/LPIC/blob/master/gifs/mv.gif) 
 * rm - Трие файл
+  
  ![rm](https://github.com/nickkostov/LPIC/blob/master/gifs/rm.gif) 
