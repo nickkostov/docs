@@ -74,4 +74,8 @@ History - Хронология
 
 ![!!](https://github.com/nickkostov/LPIC/blob/master/gifs/!!.gif)
 
-- `!а`
+- `!а` - изпълнение на последната команда която съдържа примерно буквата а -- (а) може да бъде какъвто е и да е знак в зависимост да съвпада с команда започваща с този знак.
+
+- `~/.bash_history` - файл който запазва всички изпълнени команди в интерпретатора.
+
+![bash_history](https://github.com/nickkostov/LPIC/blob/master/gifs/bash_history.gif)
