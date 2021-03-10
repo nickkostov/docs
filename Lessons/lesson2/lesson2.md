@@ -83,7 +83,20 @@ History - Хронология
 
 Малко команди: 
 
-                               
+| command     | command     | command       |
+| :---        |    :----:   |          ---: |
+| login       | poweroff    | groups        |
+| logout      | reboot      | su            |
+| shutdown    | users       | sudo          |
+| :---        |    :----:   |          ---: |
+| halt        | who         | man           |
+| init        | w           | info          |
+| :---        |    :----:   |          ---: |
+| alias       | history     | export        |
+| set         | unset        | env          |
+| :---        |    :----:   |          ---: |
+
+
 | :----- | :-------: | -----: |
 | login  | poweroff  | groups |
 | :----- | :-------: | -----: |
