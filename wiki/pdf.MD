@@ -2,7 +2,7 @@
 
 [Урок 1](../Lessons/lesson1/1.md)
 
-[Урок 2](../Lessons/lesson2/CommandLine%26FSH.pdf)
+[Урок 2](../Lessons/lesson2/lesson2.md)
 
 [Урок 3](../Lessons/lesson3.4/Permissions%20and%20other%20stuff.pdf)
 
