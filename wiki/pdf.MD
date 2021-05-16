@@ -6,7 +6,7 @@
 
 [Урок 3 Файлове, директории и малко контрол на достъпа](../Lessons/lesson3/lesson3.md)
 
-[Урок 4] Фундаменталности и команди](url)(../Lessons/lesson5/fundamentals.md)
+[Урок 4 Фундаменталности и команди](../Lessons/lesson5/fundamentals.md)
 
 [Урок 5](../Lessons/lesson6/6-Processes.pdf)
 
