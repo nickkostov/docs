@@ -8,7 +8,7 @@
 
 [Урок 4 Фундаменталности и команди](../Lessons/lesson5/fundamentals.md)
 
-[Урок 5](../Lessons/lesson6/6-Processes.pdf)
+[Урок 5 Процеси](../Lessons/lesson6/processes.md)
 
 [Урок 6](../Lessons/lesson7/Disk-Files.pdf)
 
