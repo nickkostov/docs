@@ -4,7 +4,7 @@
 
 [Урок 2 Команден Ред](../Lessons/lesson2/lesson2.md)
 
-[Урок 3](../Lessons/lesson3/lesson3.md)
+[Урок 3 Файлове, директории и малко контрол на достъпа](../Lessons/lesson3/lesson3.md)
 
 [Урок 4](../Lessons/lesson5/5-Fundamentals.pdf)
 
